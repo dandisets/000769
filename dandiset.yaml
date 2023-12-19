@@ -6,8 +6,8 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  numberOfBytes: 1
+  numberOfFiles: 1
   schemaKey: AssetsSummary
 citation: Soliman, Sherif (2023) 20231222_AIBS_Patchseq_human (Version draft) [Data
   set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
@@ -20,7 +20,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-12-18T18:57:38.221514+00:00'
-datePublished: '2023-12-18T18:57:52.806153+00:00'
+datePublished: '2023-12-19T21:54:24.219789+00:00'
 description: HMBA Lein PatchSeq upload (human) (Q4 2023)
 doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000769/draft
@@ -31,13 +31,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000769/versions/draft/assets/
 name: 20231222_AIBS_Patchseq_human
 publishedBy:
-  endDate: '2023-12-18T18:57:52.806153+00:00'
-  id: urn:uuid:4f531b9d-9ab8-4367-877a-3b58540c71c6
+  endDate: '2023-12-19T21:54:24.219789+00:00'
+  id: urn:uuid:2351bfbc-234b-44e5-956c-f22bb9d83db2
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-18T18:57:52.806153+00:00'
+  startDate: '2023-12-19T21:54:24.219789+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:a39b739d-03bc-4cb1-b501-db345cc0614e
+  - id: urn:uuid:62750024-366b-4e10-abb3-18e464dcb448
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
