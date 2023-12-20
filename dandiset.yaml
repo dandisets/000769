@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000769
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,8 +10,9 @@ assetsSummary:
   numberOfBytes: 1
   numberOfFiles: 1
   schemaKey: AssetsSummary
-citation: Soliman, Sherif (2023) 20231222_AIBS_Patchseq_human (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Soliman, Sherif; Lee, Brian; Allen Institute for Brian Science; National
+  Institute of Mental Health; Kalmbach, Brian; Dalley, Rachel; Lein, Ed (2023) 20231222_AIBS_Patchseq_human
+  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: hi@sherif.io
@@ -19,31 +21,90 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  email: brianle@alleninstitute.org
+  identifier: 0000-0002-3210-5638
+  includeInCitation: true
+  name: Lee, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: UM1MH130981
+  contactPoint: []
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: true
+  name: Allen Institute for Brian Science
+  roleName: []
+  schemaKey: Organization
+  url: https://alleninstitute.org/
+- awardNumber: UM1MH130981
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: true
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/
+- affiliation: []
+  email: briank@alleninstitute.org
+  identifier: 0000-0003-3136-8097
+  includeInCitation: true
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  email: racheld@alleninstitute.org
+  includeInCitation: true
+  name: Dalley, Rachel
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- affiliation: []
+  email: edl@alleninstitute.org
+  identifier: 0000-0001-9012-6552
+  includeInCitation: true
+  name: Lein, Ed
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
 dateCreated: '2023-12-18T18:57:38.221514+00:00'
-datePublished: '2023-12-19T21:54:24.219789+00:00'
+datePublished: '2023-12-20T20:01:36.368199+00:00'
 description: HMBA Lein PatchSeq upload (human) (Q4 2023)
 doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000769/draft
 identifier: DANDI:000769
+keywords:
+- Patch-seq
+- human
+- multimodal
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000769/versions/draft/assets/
 name: 20231222_AIBS_Patchseq_human
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
 publishedBy:
-  endDate: '2023-12-19T21:54:24.219789+00:00'
-  id: urn:uuid:2351bfbc-234b-44e5-956c-f22bb9d83db2
+  endDate: '2023-12-20T20:01:36.368199+00:00'
+  id: urn:uuid:d304ee82-c218-423a-b956-f4cc0f5cb01d
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-19T21:54:24.219789+00:00'
+  startDate: '2023-12-20T20:01:36.368199+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:62750024-366b-4e10-abb3-18e464dcb448
+  - id: urn:uuid:7057b224-cdf8-4d65-85d9-a26d8051f711
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget:
+- Multimodal classifcation of cell types in humans.
 url: https://dandiarchive.org/dandiset/000769/draft
 version: draft
+wasGeneratedBy: []
