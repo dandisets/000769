@@ -36,11 +36,11 @@ assetsSummary:
   - ProcessingModule
   - CurrentClampSeries
 citation: Soliman, Sherif; Lee, Brian; Allen Institute for Brian Science; National
-  Institute of Mental Health; Kalmbach, Brian; Dalley, Rachel; Lein, Ed (2023) 20231222_AIBS_Patchseq_human
-  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  Institute of Mental Health; Kalmbach, Brian; Dalley, Rachel; Lein, Ed (2024) 20231222_AIBS_Patchseq_human
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000769/draft
 contributor:
 - affiliation: []
-  email: hi@sherif.io
+  email: sherif.soliman@alleninstitute.org
   includeInCitation: true
   name: Soliman, Sherif
   roleName:
@@ -95,9 +95,7 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2023-12-18T18:57:38.221514+00:00'
-datePublished: '2023-12-21T21:38:10.547920+00:00'
 description: HMBA Lein PatchSeq upload (human) (Q4 2023)
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000769/draft
 identifier: DANDI:000769
@@ -112,18 +110,6 @@ manifestLocation:
 name: 20231222_AIBS_Patchseq_human
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
-publishedBy:
-  endDate: '2023-12-21T21:38:10.547920+00:00'
-  id: urn:uuid:2d6fffd0-92de-4c8e-8871-fea6c82ccac7
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-12-21T21:38:10.547920+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:1645797a-181b-494e-be2c-5990de5df541
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
